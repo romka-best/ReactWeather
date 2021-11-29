@@ -1,0 +1,38 @@
+.App {
+    text-align: center;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.card {
+    border: 2px solid #333;
+    margin: 0 20px;
+    border-radius: 10px;
+    width: 200px;
+    max-height: 300px;
+    padding: 20px;
+}
+
+.time {
+    font-size: 2em;
+}
+
+.temperature {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.fallout {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.icon {
+    width: 80px;
+}
